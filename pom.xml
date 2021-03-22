@@ -12,10 +12,15 @@
     <name>fake-vuln-maven</name>
     <url>http://maven.apache.org</url>
     <dependencies>
+<!--        <dependency>-->
+<!--            <groupId>org.bouncycastle</groupId>-->
+<!--            <artifactId>bcprov-jdk15on</artifactId>-->
+<!--            <version>1.55</version>-->
+<!--        </dependency>-->
         <dependency>
-            <groupId>org.bouncycastle</groupId>
-            <artifactId>bcprov-jdk15on</artifactId>
-            <version>1.55</version>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-skipper-server</artifactId>
+            <version>1.0.0.RELEASE</version>
         </dependency>
     </dependencies>
 </project>

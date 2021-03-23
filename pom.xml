@@ -6,6 +6,7 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
+        <module>common</module>
         <module>module-maven1</module>
         <module>module-maven2</module>
     </modules>
@@ -17,15 +18,5 @@
             <artifactId>poi</artifactId>
             <version>3.17</version>
         </dependency>
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-collections4</artifactId>
-            <version>4.2</version>
-        </dependency>
-        <!--        <dependency>-->
-<!--            <groupId>org.springframework.cloud</groupId>-->
-<!--            <artifactId>spring-cloud-skipper-server</artifactId>-->
-<!--            <version>1.0.0.RELEASE</version>-->
-<!--        </dependency>-->
     </dependencies>
 </project>

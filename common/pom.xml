@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <packaging>jar</packaging>
-    <artifactId>module-maven1</artifactId>
+    <artifactId>common</artifactId>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
@@ -17,15 +17,9 @@
     </properties>
     <dependencies>
         <dependency>
-            <groupId>org.jsoup</groupId>
-            <artifactId>jsoup</artifactId>
-            <version>1.7.2</version>
-        </dependency>
-        <dependency>
-            <groupId>com.example.app</groupId>
-            <artifactId>common</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20090211</version>
         </dependency>
     </dependencies>
 </project>
